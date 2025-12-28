@@ -12,9 +12,9 @@ images/
 │   ├── exterior-view.jpg         # Building from outside
 │   └── exhibits-panorama.jpg     # Museum exhibits
 │
-├── current/                       # Present-day ruins
-│   ├── ruins-aerial.jpg          # Aerial/drone view
-│   └── ruins-sunset.jpg          # Sunset over ruins
+├── current/                       # Present-day site
+│   ├── sutro-aerial.jpg          # Aerial/drone view
+│   └── sutro-sunset.jpg          # Sunset over the site
 │
 └── vision/                        # AI renderings of restoration
     ├── sunset-pools.jpg          # Featured: sunset over pools
@@ -53,17 +53,17 @@ images/
 
 ---
 
-## Current Ruins Images
+## Current Site Images
 
 ### Sources (Free)
 1. **Unsplash** - https://unsplash.com/s/photos/sutro-baths
 2. **Pexels** - https://www.pexels.com/search/sutro%20baths/
 
-### Needed Images
+### Images
 | File | Description |
 |------|-------------|
-| `ruins-aerial.jpg` | Drone/aerial view of ruins |
-| `ruins-sunset.jpg` | Golden hour over the ruins |
+| `sutro-aerial.jpg` | Aerial view of the site |
+| `sutro-sunset.jpg` | Golden hour at Sutro |
 
 ---
 

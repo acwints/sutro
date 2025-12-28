@@ -8,7 +8,7 @@ A website for the Sutro Baths Restoration Initiative — a public-private partne
 
 ## About the Project
 
-The Sutro Baths were once the world's largest indoor swimming establishment, built in 1896 by Adolph Sutro. After a devastating fire in 1966, only ruins remain. This project proposes a Section 111 Historic Lease to restore the site through private investment while maintaining public access.
+The Sutro Baths were once the world's largest indoor swimming establishment, built in 1896 by Adolph Sutro. After a fire in 1966, the site's potential has remained unrealized. This project explores a Section 111 Historic Lease to restore the Baths through private investment while maintaining public access — creating one of the most inspiring places in the country.
 
 ### Key Features
 
@@ -63,7 +63,7 @@ sutro/
 ├── styles.css              # All styles
 ├── images/
 │   ├── historical/         # Historic Sutro Baths photos (NPS, public domain)
-│   ├── current/            # Current ruins photos
+│   ├── current/            # Current site photos
 │   ├── vision/             # AI renderings of restoration vision
 │   └── IMAGE_SOURCES.md    # Image attribution and sources
 ├── README.md
