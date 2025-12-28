@@ -69,10 +69,6 @@ images/
 
 ## Vision / AI Renderings
 
-### Source
-AI renderings from @benspringwater on X/Twitter:
-https://x.com/benspringwater/status/1997385671963492434
-
 ### Current Images
 | File | Description | Usage |
 |------|-------------|-------|
@@ -106,5 +102,4 @@ Before committing, optimize images:
 
 ## Attribution
 
-All historical images from NPS.gov are public domain (U.S. Government works).
-AI renderings are credited to @benspringwater.
+Historical images from NPS.gov are public domain (U.S. Government works).
