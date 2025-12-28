@@ -332,6 +332,10 @@ img {
     align-items: center;
 }
 
+.footer-brand {
+    text-align: center;
+}
+
 .footer-brand p {
     font-family: var(--font-serif);
     font-size: 1.25rem;
@@ -352,6 +356,7 @@ img {
     color: #888;
     text-transform: uppercase;
     letter-spacing: 0.1em;
+    text-align: center;
 }
 
 .footer-content {
