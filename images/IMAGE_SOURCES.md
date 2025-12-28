@@ -1,97 +1,110 @@
 # Image Sources for Sutro Restoration Website
 
-## Folder Structure
+## Folder Structure & Naming Convention
+
+All images use lowercase, hyphen-separated descriptive names:
+
 ```
 images/
-├── historical/     # 1890s-1966 original Sutro Baths
-├── current/        # Present-day ruins
-└── vision/         # AI renderings & concept art of restoration
+├── historical/                    # 1890s-1966 original Sutro Baths
+│   ├── pools-colorized.jpg       # Colorized view of the seven pools
+│   ├── swimmers-interior.jpg     # Interior with bathers
+│   ├── exterior-view.jpg         # Building from outside
+│   └── exhibits-panorama.jpg     # Museum exhibits
+│
+├── current/                       # Present-day ruins
+│   ├── ruins-aerial.jpg          # Aerial/drone view
+│   └── ruins-sunset.jpg          # Sunset over ruins
+│
+└── vision/                        # AI renderings of restoration
+    ├── sunset-pools.jpg          # Featured: sunset over pools
+    ├── glass-atrium.jpg          # Interior glass atrium
+    ├── domed-pavilion.jpg        # Sculptural dome structure
+    ├── public-gardens.jpg        # Public access pathways
+    ├── cliffside-fog.jpg         # Dramatic cliffside (hero bg)
+    ├── aerial-pools.jpg          # Aerial thermal pools
+    └── coastal-sanctuary.jpg     # Coastal wellness view
 ```
+
+## Image Naming Convention
+
+- **Format**: `[description]-[detail].jpg`
+- **Case**: All lowercase
+- **Separator**: Hyphens (no underscores or spaces)
+- **Extension**: `.jpg` preferred (not `.jpeg`)
+
+---
 
 ## Historical Images (1896-1966)
 
-### Free / Public Domain Sources:
-1. **Library of Congress** - Public domain historical photos
-   - https://www.loc.gov/item/2018646161/ ("Great Sutro Bath House" 1902)
-   - Search: https://www.loc.gov/search/?q=sutro+baths
+### Current Images (from NPS - Public Domain)
+| File | Description | Source |
+|------|-------------|--------|
+| `pools-colorized.jpg` | Colorized seven pools | NPS.gov |
+| `swimmers-interior.jpg` | Interior with swimmers | NPS.gov |
+| `exterior-view.jpg` | Exterior banner image | NPS.gov |
+| `exhibits-panorama.jpg` | Panorama exhibits | NPS.gov |
 
-2. **OpenSFHistory (Western Neighborhoods Project)** - Extensive collection
-   - https://opensfhistory.org/Photoset/Sutro_Baths
-   - High-res scans available
-
-3. **Wikimedia Commons** - Public domain
-   - https://commons.wikimedia.org/wiki/Category:Sutro_Baths
-
-4. **National Park Service** - Government photos (public domain)
-   - https://www.nps.gov/goga/learn/historyculture/sutro-baths.htm
-
-### Suggested images to download:
-- Interior panorama showing all 7 pools
-- Glass ceiling/roof structure
-- Crowds of swimmers (shows scale)
-- Exterior view from cliff
-- The 1966 fire
+### Additional Sources (Free/Public Domain)
+1. **National Park Service** - https://www.nps.gov/goga/learn/historyculture/sutro-baths.htm
+2. **Library of Congress** - https://www.loc.gov/search/?q=sutro+baths
+3. **OpenSFHistory** - https://opensfhistory.org/Photoset/Sutro_Baths
+4. **Wikimedia Commons** - https://commons.wikimedia.org/wiki/Category:Sutro_Baths
 
 ---
 
 ## Current Ruins Images
 
-### Stock Photo Sources:
-1. **Unsplash** (Free) - Search "Sutro Baths"
-   - https://unsplash.com/s/photos/sutro-baths
+### Sources (Free)
+1. **Unsplash** - https://unsplash.com/s/photos/sutro-baths
+2. **Pexels** - https://www.pexels.com/search/sutro%20baths/
 
-2. **iStock** - 108,000+ images available
-   - https://www.istockphoto.com/photos/ruins-of-sutro-baths
-
-3. **Getty Images** - Professional quality
-   - https://www.gettyimages.com/photos/sutro-baths
-
-### Suggested images:
-- Aerial/drone view of ruins
-- Moody fog shots
-- Sunset over the pools
-- Detail of concrete foundations
-- Visitors exploring the site
+### Needed Images
+| File | Description |
+|------|-------------|
+| `ruins-aerial.jpg` | Drone/aerial view of ruins |
+| `ruins-sunset.jpg` | Golden hour over the ruins |
 
 ---
 
 ## Vision / AI Renderings
 
-### From the Project:
-The AI renderings from @benspringwater on X/Twitter showing the futuristic restored Sutro Baths:
-- https://x.com/benspringwater/status/1997385671963492434
+### Source
+AI renderings from @benspringwater on X/Twitter:
+https://x.com/benspringwater/status/1997385671963492434
 
-**To save these images:**
-1. Open the tweet in a browser
-2. Click on each image to expand
-3. Right-click > "Save image as..."
-4. Save to `images/vision/` folder
-
-### Suggested filenames:
-- `vision-aerial.jpg` - Bird's eye view of restored complex
-- `vision-pools.jpg` - Interior thermal pools
-- `vision-exterior.jpg` - Glass structure from outside
-- `vision-sunset.jpg` - Evening ambiance shot
-
-### Additional Concept Art:
-- "Center for the Human Spirit" by Quan Nyen Tran
-  - https://richmondsfblog.com/2014/02/21/sutro-baths-ruins-reimagined-as-a-center-for-the-human-spirit/
+### Current Images
+| File | Description | Usage |
+|------|-------------|-------|
+| `sunset-pools.jpg` | Sunset over restored complex | Featured gallery |
+| `glass-atrium.jpg` | Interior glass sanctuary | Tall gallery item |
+| `domed-pavilion.jpg` | Sculptural glass dome | Gallery |
+| `public-gardens.jpg` | Public pathways | Gallery |
+| `cliffside-fog.jpg` | Dramatic fog view | Hero background |
+| `aerial-pools.jpg` | Aerial thermal pools | Gallery |
+| `coastal-sanctuary.jpg` | Coastal wellness | Gallery |
 
 ---
 
-## Recommended Image Specs
+## Image Specifications
 
-| Usage | Dimensions | Format |
-|-------|-----------|--------|
-| Hero background | 1920x1080+ | JPG (compressed) |
-| Gallery images | 800x600 | JPG or WebP |
-| Thumbnails | 400x300 | JPG or WebP |
+| Usage | Dimensions | Format | Notes |
+|-------|-----------|--------|-------|
+| Hero background | 1920x1080+ | JPG | Compressed for web |
+| Gallery featured | 1200x900+ | JPG | High quality |
+| Gallery standard | 800x600+ | JPG | Web optimized |
+| Social sharing | 1200x630 | JPG | OG image spec |
 
-## After Adding Images
+## Compression
 
-Update `index.html` to reference your images:
-```html
-<img src="images/historical/interior-1900.jpg" alt="Sutro Baths interior, c. 1900">
-```
+Before committing, optimize images:
+- Use tools like [Squoosh](https://squoosh.app/) or [TinyPNG](https://tinypng.com/)
+- Target ~80% quality for photos
+- Keep file sizes under 500KB for gallery, 200KB for thumbnails
 
-The website will automatically display them in the gallery sections.
+---
+
+## Attribution
+
+All historical images from NPS.gov are public domain (U.S. Government works).
+AI renderings are credited to @benspringwater.

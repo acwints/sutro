@@ -4,10 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sutro Restoration Project | Reviving San Francisco's Lost Landmark</title>
-    <link rel="stylesheet" href="styles.css">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="A public-private partnership to restore San Francisco's historic Sutro Baths through private capital investment while maintaining public access.">
+    <meta name="keywords" content="Sutro Baths, San Francisco, historic restoration, public-private partnership, thermal spa, Lands End, Golden Gate">
+    <meta name="author" content="Sutro Restoration Project">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Sutro Restoration Project">
+    <meta property="og:description" content="Reviving San Francisco's Lost Landmark through Private Capital, Public Access, and Historic Preservation.">
+    <meta property="og:image" content="images/vision/sunset-pools.jpg">
+    <meta property="og:url" content="https://sutra.vercel.app">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sutro Restoration Project">
+    <meta name="twitter:description" content="Reviving San Francisco's Lost Landmark through Private Capital, Public Access, and Historic Preservation.">
+    <meta name="twitter:image" content="images/vision/sunset-pools.jpg">
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#0a1628">
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav class="navbar">
@@ -27,7 +53,7 @@
         </div>
     </nav>
 
-    <header class="hero">
+    <header class="hero has-bg-image" style="background-image: url('images/vision/cliffside-fog.jpg');">
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <p class="hero-tagline">A Public-Private Partnership</p>
@@ -96,7 +122,7 @@
                 </div>
                 <div class="history-image">
                     <div class="image-placeholder" data-placeholder="historical">
-                        <img src="images/historical/swimmers-pool.jpg" alt="Historic Sutro Baths interior, c. 1900" onerror="this.style.display='none'; this.parentElement.classList.add('show-placeholder');">
+                        <img src="images/historical/swimmers-interior.jpg" alt="Historic Sutro Baths interior, c. 1900" onerror="this.style.display='none'; this.parentElement.classList.add('show-placeholder');">
                         <span class="placeholder-text">Historic Sutro Baths, c. 1900</span>
                     </div>
                 </div>
@@ -114,81 +140,36 @@
             </div>
             <div class="gallery-grid gallery-historical">
                 <div class="gallery-item gallery-item-large">
-                    <img src="images/historical/colored-pools.jpg" alt="Colorized view of Sutro Baths pools" onerror="this.parentElement.classList.add('show-placeholder');">
+                    <img src="images/historical/pools-colorized.jpg" alt="Colorized view of Sutro Baths pools" onerror="this.parentElement.classList.add('show-placeholder');">
                     <div class="gallery-placeholder">
                         <span>The Seven Pools</span>
-                        <small>Add: images/historical/colored-pools.jpg</small>
+                        <small>Add: images/historical/pools-colorized.jpg</small>
                     </div>
                     <div class="gallery-caption">Seven pools at varying temperatures</div>
                 </div>
                 <div class="gallery-item">
-                    <img src="images/historical/swimmers-pool.jpg" alt="Swimmers at Sutro Baths" onerror="this.parentElement.classList.add('show-placeholder');">
+                    <img src="images/historical/swimmers-interior.jpg" alt="Swimmers at Sutro Baths" onerror="this.parentElement.classList.add('show-placeholder');">
                     <div class="gallery-placeholder">
                         <span>The Swimmers</span>
-                        <small>Add: images/historical/swimmers-pool.jpg</small>
+                        <small>Add: images/historical/swimmers-interior.jpg</small>
                     </div>
                     <div class="gallery-caption">Bathers enjoying the pools</div>
                 </div>
                 <div class="gallery-item">
-                    <img src="images/historical/banner.jpg" alt="Exterior view of Sutro Baths" onerror="this.parentElement.classList.add('show-placeholder');">
+                    <img src="images/historical/exterior-view.jpg" alt="Exterior view of Sutro Baths" onerror="this.parentElement.classList.add('show-placeholder');">
                     <div class="gallery-placeholder">
                         <span>The Glass Palace</span>
-                        <small>Add: images/historical/banner.jpg</small>
+                        <small>Add: images/historical/exterior-view.jpg</small>
                     </div>
                     <div class="gallery-caption">The magnificent structure</div>
                 </div>
                 <div class="gallery-item">
-                    <img src="images/historical/panorama-exhibits.jpg" alt="Panorama exhibits at Sutro Baths" onerror="this.parentElement.classList.add('show-placeholder');">
+                    <img src="images/historical/exhibits-panorama.jpg" alt="Panorama exhibits at Sutro Baths" onerror="this.parentElement.classList.add('show-placeholder');">
                     <div class="gallery-placeholder">
                         <span>The Exhibits</span>
-                        <small>Add: images/historical/panorama-exhibits.jpg</small>
+                        <small>Add: images/historical/exhibits-panorama.jpg</small>
                     </div>
                     <div class="gallery-caption">Natural history displays</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Current Ruins Gallery -->
-    <section class="section section-gallery section-gallery-current">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-label">Present Day</p>
-                <h2>The Haunting Ruins</h2>
-                <p class="section-intro">What remains today: concrete foundations, ocean-filled pools, and the whisper of what once was.</p>
-            </div>
-            <div class="gallery-grid gallery-current">
-                <div class="gallery-item gallery-item-large">
-                    <img src="images/current/aerial.jpg" alt="Coastal cliffs view" onerror="this.parentElement.classList.add('show-placeholder');">
-                    <div class="gallery-placeholder">
-                        <span>Aerial View</span>
-                        <small>Add: images/current/aerial.jpg</small>
-                    </div>
-                    <div class="gallery-caption">The ruins from above</div>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/current/fog.jpg" alt="Foggy coastline" onerror="this.parentElement.classList.add('show-placeholder');">
-                    <div class="gallery-placeholder">
-                        <span>Fog & Mist</span>
-                        <small>Add: images/current/fog.jpg</small>
-                    </div>
-                    <div class="gallery-caption">Atmospheric mornings</div>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/current/cliffs-fog.jpg" alt="Misty cliffs" onerror="this.parentElement.classList.add('show-placeholder');">
-                    <div class="gallery-placeholder">
-                        <span>The Cliffs</span>
-                        <small>Add: images/current/cliffs-fog.jpg</small>
-                    </div>
-                    <div class="gallery-caption">Ocean-fed remnants</div>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/current/ruins-sunset.jpg" alt="Sunset over ruins" onerror="this.parentElement.classList.add('show-placeholder');">
-                    <div class="gallery-placeholder">
-                        <span>Golden Hour</span>
-                        <small>Add: images/current/ruins-sunset.jpg</small>
-                    </div>
-                    <div class="gallery-caption">Sunset over the Pacific</div>
                 </div>
             </div>
         </div>
@@ -246,52 +227,60 @@
             </div>
             <div class="gallery-grid gallery-vision">
                 <div class="gallery-item gallery-item-featured">
-                    <img src="images/vision/sutro1.jpeg" alt="Sunset view of restored Sutro Baths with pools and glass pavilion" onerror="this.parentElement.classList.add('show-placeholder');">
+                    <img src="images/vision/sunset-pools.jpg" alt="Sunset view of restored Sutro Baths with pools and glass pavilion" onerror="this.parentElement.classList.add('show-placeholder');">
                     <div class="gallery-placeholder">
                         <span>The Vision - Aerial</span>
-                        <small>Add: images/vision/sutro1.jpeg</small>
+                        <small>Add: images/vision/sunset-pools.jpg</small>
                     </div>
                     <div class="gallery-caption">Sunset over the restored complex</div>
                 </div>
                 <div class="gallery-item gallery-item-tall">
-                    <img src="images/vision/sutro3.jpeg" alt="Interior glass atrium with thermal pools and gardens" onerror="this.parentElement.classList.add('show-placeholder');">
+                    <img src="images/vision/glass-atrium.jpg" alt="Interior glass atrium with thermal pools and gardens" onerror="this.parentElement.classList.add('show-placeholder');">
                     <div class="gallery-placeholder">
                         <span>Thermal Pools</span>
-                        <small>Add: images/vision/sutro3.jpeg</small>
+                        <small>Add: images/vision/glass-atrium.jpg</small>
                     </div>
                     <div class="gallery-caption">Glass atrium sanctuary</div>
                 </div>
                 <div class="gallery-item">
-                    <img src="images/vision/sutro4.jpeg" alt="Domed glass structure with ocean views" onerror="this.parentElement.classList.add('show-placeholder');">
+                    <img src="images/vision/domed-pavilion.jpg" alt="Domed glass structure with ocean views" onerror="this.parentElement.classList.add('show-placeholder');">
                     <div class="gallery-placeholder">
                         <span>Glass Pavilion</span>
-                        <small>Add: images/vision/sutro4.jpeg</small>
+                        <small>Add: images/vision/domed-pavilion.jpg</small>
                     </div>
                     <div class="gallery-caption">Sculptural glass pavilion</div>
                 </div>
                 <div class="gallery-item">
-                    <img src="images/vision/sutro7.jpeg" alt="Public pathway with modern canopy" onerror="this.parentElement.classList.add('show-placeholder');">
+                    <img src="images/vision/public-gardens.jpg" alt="Public pathway with modern canopy" onerror="this.parentElement.classList.add('show-placeholder');">
                     <div class="gallery-placeholder">
                         <span>Public Access</span>
-                        <small>Add: images/vision/sutro7.jpeg</small>
+                        <small>Add: images/vision/public-gardens.jpg</small>
                     </div>
                     <div class="gallery-caption">Public gardens and pathways</div>
                 </div>
                 <div class="gallery-item">
-                    <img src="images/vision/sutro5.jpeg" alt="Dramatic cliffside structure in fog" onerror="this.parentElement.classList.add('show-placeholder');">
+                    <img src="images/vision/cliffside-fog.jpg" alt="Dramatic cliffside structure in fog" onerror="this.parentElement.classList.add('show-placeholder');">
                     <div class="gallery-placeholder">
                         <span>Cliffside</span>
-                        <small>Add: images/vision/sutro5.jpeg</small>
+                        <small>Add: images/vision/cliffside-fog.jpg</small>
                     </div>
                     <div class="gallery-caption">Built into the cliffs</div>
                 </div>
                 <div class="gallery-item">
-                    <img src="images/vision/sutro6.jpeg" alt="Aerial view of glass structure and thermal pools" onerror="this.parentElement.classList.add('show-placeholder');">
+                    <img src="images/vision/aerial-pools.jpg" alt="Aerial view of glass structure and thermal pools" onerror="this.parentElement.classList.add('show-placeholder');">
                     <div class="gallery-placeholder">
                         <span>Thermal Baths</span>
-                        <small>Add: images/vision/sutro6.jpeg</small>
+                        <small>Add: images/vision/aerial-pools.jpg</small>
                     </div>
                     <div class="gallery-caption">Ocean-fed thermal pools</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/vision/coastal-sanctuary.jpg" alt="Coastal wellness complex with wooden architecture" onerror="this.parentElement.classList.add('show-placeholder');">
+                    <div class="gallery-placeholder">
+                        <span>Coastal Sanctuary</span>
+                        <small>Add: images/vision/coastal-sanctuary.jpg</small>
+                    </div>
+                    <div class="gallery-caption">Natural tidal pools and spa</div>
                 </div>
             </div>
         </div>
@@ -426,12 +415,15 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 Sutro Restoration Project. All rights reserved.</p>
+                <p>&copy; <span id="year"></span> Sutro Restoration Project. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
     <script>
+        // Set current year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+
         // Mobile menu toggle
         const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
         const navLinks = document.querySelector('.nav-links');

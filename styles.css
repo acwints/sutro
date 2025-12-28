@@ -15,6 +15,11 @@
     --color-gold: #c9a962;
     --color-coral: #d4837a;
 
+    /* Text Colors */
+    --color-text-primary: #0a1628;
+    --color-text-body: #4a5568;
+    --color-text-muted: #5a6778;
+
     /* Typography */
     --font-display: 'Playfair Display', Georgia, serif;
     --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -76,7 +81,7 @@ h3 {
 }
 
 p {
-    color: #4a5568;
+    color: var(--color-text-body);
 }
 
 /* Buttons */
@@ -340,7 +345,7 @@ p {
 
 .section-intro {
     font-size: 1.125rem;
-    color: #5a6778;
+    color: var(--color-text-muted);
 }
 
 /* Problem Section */
@@ -413,18 +418,6 @@ p {
 
 .history-text p:last-child {
     margin-bottom: 0;
-}
-
-.image-placeholder {
-    aspect-ratio: 4/3;
-    background: linear-gradient(135deg, var(--color-ocean) 0%, var(--color-teal) 100%);
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgba(255, 255, 255, 0.7);
-    font-size: 14px;
-    font-style: italic;
 }
 
 /* Solution Section */
@@ -874,19 +867,22 @@ p {
     gap: 20px;
 }
 
-.gallery-historical,
-.gallery-current {
+.gallery-historical {
     grid-template-columns: 2fr 1fr 1fr;
     grid-template-rows: auto auto;
 }
 
-.gallery-historical .gallery-item-large,
-.gallery-current .gallery-item-large {
+.gallery-historical .gallery-item-large {
     grid-row: span 2;
 }
 
+.gallery-current-2col {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
 .gallery-vision {
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto auto auto;
 }
 
@@ -1058,15 +1054,17 @@ p {
     }
 
     .gallery-historical,
-    .gallery-current,
     .gallery-vision {
         grid-template-columns: 1fr 1fr;
     }
 
-    .gallery-historical .gallery-item-large,
-    .gallery-current .gallery-item-large {
+    .gallery-historical .gallery-item-large {
         grid-row: span 1;
         grid-column: span 2;
+    }
+
+    .gallery-current-2col {
+        grid-template-columns: 1fr 1fr;
     }
 
     .gallery-vision .gallery-item-featured {
@@ -1160,13 +1158,12 @@ p {
     }
 
     .gallery-historical,
-    .gallery-current,
+    .gallery-current-2col,
     .gallery-vision {
         grid-template-columns: 1fr;
     }
 
     .gallery-historical .gallery-item-large,
-    .gallery-current .gallery-item-large,
     .gallery-vision .gallery-item-featured,
     .gallery-vision .gallery-item-tall {
         grid-column: span 1;
