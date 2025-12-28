@@ -329,7 +329,7 @@ img {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 64px;
-    align-items: start;
+    align-items: center;
 }
 
 .footer-brand p {
@@ -342,7 +342,7 @@ img {
 .footer-learn {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 20px;
 }
 
 .footer-title {
@@ -352,6 +352,13 @@ img {
     color: #888;
     text-transform: uppercase;
     letter-spacing: 0.1em;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    align-items: start;
 }
 
 .footer-video {
@@ -384,6 +391,10 @@ img {
     padding: 16px 0;
     border-bottom: 1px solid #333;
     transition: color 0.2s;
+}
+
+.footer-links a:first-child {
+    border-top: 1px solid #333;
 }
 
 .footer-links a:hover {
@@ -474,5 +485,10 @@ img {
         padding: 48px 24px;
         grid-template-columns: 1fr;
         gap: 40px;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 24px;
     }
 }
