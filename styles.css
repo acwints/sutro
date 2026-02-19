@@ -477,10 +477,10 @@ img {
 }
 
 .letter-body p {
-    font-family: var(--font-mono);
-    font-size: 14px;
+    font-family: var(--font-serif);
+    font-size: 1.05rem;
     color: var(--color-text);
-    line-height: 1.85;
+    line-height: 1.9;
     margin-bottom: 18px;
 }
 
@@ -489,10 +489,10 @@ img {
 }
 
 .letter-principles li {
-    font-family: var(--font-mono);
-    font-size: 14px;
+    font-family: var(--font-serif);
+    font-size: 1.05rem;
     color: var(--color-text);
-    line-height: 1.8;
+    line-height: 1.85;
     margin-bottom: 8px;
 }
 
@@ -701,7 +701,7 @@ img {
 
     .letter-body p,
     .letter-principles li {
-        font-size: 13px;
+        font-size: 1rem;
     }
 }
 
