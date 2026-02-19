@@ -22,8 +22,7 @@ This is a static website built with:
 
 - HTML5
 - CSS3 (vanilla, no frameworks)
-- Vanilla JavaScript (minimal, for interactions)
-- Google Fonts (Playfair Display, Inter)
+- Google Fonts (Playfair Display)
 
 No build process required — just open `index.html` in a browser.
 
@@ -60,7 +59,10 @@ No build process required — just open `index.html` in a browser.
 ```
 sutro/
 ├── index.html              # Main HTML file
+├── letter.html             # Open letter page
 ├── styles.css              # All styles
+├── vercel.json             # Security headers for production
+├── .github/workflows/ci.yml # Link hygiene check
 ├── images/
 │   ├── historical/         # Historic Sutro Baths photos (NPS, public domain)
 │   ├── current/            # Current site photos

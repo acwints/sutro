@@ -26,8 +26,8 @@ By participating in this project, you agree to maintain a respectful and inclusi
 1. **Fork the repository** on GitHub
 2. **Clone your fork** locally:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/sutro-restoration.git
-   cd sutro-restoration
+   git clone https://github.com/YOUR-USERNAME/sutro.git
+   cd sutro
    ```
 3. **Create a branch** for your changes:
    ```bash
@@ -39,7 +39,7 @@ By participating in this project, you agree to maintain a respectful and inclusi
 ### Reporting Bugs
 
 Before submitting a bug report:
-1. Check existing [issues](https://github.com/acwints/sutro-restoration/issues) to avoid duplicates
+1. Check existing [issues](https://github.com/acwints/sutro/issues) to avoid duplicates
 2. Use a clear, descriptive title
 3. Include:
    - Browser and version
@@ -208,7 +208,7 @@ When contributing images:
 
 ## Questions?
 
-- Open a [GitHub Discussion](https://github.com/acwints/sutro-restoration/discussions)
+- Open a [GitHub Discussion](https://github.com/acwints/sutro/discussions)
 - Check existing issues and documentation
 
 ---

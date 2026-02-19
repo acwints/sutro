@@ -22,8 +22,10 @@ As a static website, we maintain only the latest version deployed to production.
 
 ### Do
 
-1. **Email**: Send details to the repository owner via GitHub (click on profile for contact)
-2. **Include**:
+1. **Preferred**: Open a private GitHub Security Advisory draft at:
+   - https://github.com/acwints/sutro/security/advisories/new
+2. **Email fallback**: Send details to `hello@sutrosociety.com` with subject line `Security Report`.
+3. **Include**:
    - Description of the vulnerability
    - Steps to reproduce
    - Potential impact
@@ -92,10 +94,8 @@ node_modules/
 2. **Rotate the secret immediately** (change passwords, regenerate API keys)
 3. **Remove from git history**:
    ```bash
-   # For recent commits
-   git reset --soft HEAD~1
-
-   # For older commits, use git filter-branch or BFG Repo-Cleaner
+   # Use git-filter-repo or BFG to fully remove secrets from history.
+   # Coordinate with maintainers before force-pushing rewritten history.
    ```
 4. **Force push** (coordinate with maintainers first)
 5. **Notify maintainers** about the incident
@@ -110,7 +110,8 @@ This is a **static website** with:
 - No database
 - No user authentication
 - No form submissions (mailto: links only)
-- No third-party JavaScript (except Google Fonts)
+- No first-party JavaScript bundles
+- Third-party embeds/resources (Google Fonts, YouTube embed)
 
 ### Potential Risks & Mitigations
 
@@ -118,14 +119,15 @@ This is a **static website** with:
 |------|------------|
 | XSS via user content | No user-generated content |
 | Dependency vulnerabilities | No npm dependencies |
-| Third-party script injection | Only Google Fonts (trusted) |
+| Third-party resource risk | Restrictive response security headers and explicit allowlists |
 | Image hotlinking abuse | Images served from same origin |
 
 ### Content Security
 
 - All images should be from verified sources
 - External links should be verified
-- No inline JavaScript in HTML (kept in script tags)
+- No inline JavaScript in HTML
+- Security headers are configured in `vercel.json`
 
 ## Third-Party Services
 
@@ -145,4 +147,4 @@ We appreciate security researchers who help keep this project safe. Contributors
 
 ---
 
-*Last updated: December 2024*
+*Last updated: February 2026*
