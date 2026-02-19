@@ -8,8 +8,9 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=EB+Garamond:wght@400;500&family=Libre+Baskerville:wght@400;700&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script src="letter-font-toggle.js" defer></script>
 </head>
 <body>
 
@@ -26,6 +27,15 @@
                 <p class="letter-kicker">Open Letter</p>
                 <h1>A Letter to The Sutro Society</h1>
                 <p class="letter-meta">By Richard Burton</p>
+                <div class="font-toggle-wrap">
+                    <label for="letter-font-select" class="font-toggle-label">Typeface</label>
+                    <select id="letter-font-select" class="font-toggle-select" aria-label="Select letter typeface">
+                        <option value="'Playfair Display', Georgia, 'Times New Roman', serif">Playfair Display</option>
+                        <option value="'Cormorant Garamond', Garamond, serif">Cormorant Garamond</option>
+                        <option value="'EB Garamond', Garamond, serif">EB Garamond</option>
+                        <option value="'Libre Baskerville', Georgia, serif">Libre Baskerville</option>
+                    </select>
+                </div>
             </header>
             <section class="letter-body">
                 <p>Ladies &amp; Gentlemen,</p>

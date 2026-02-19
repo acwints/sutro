@@ -22,7 +22,8 @@ This is a static website built with:
 
 - HTML5
 - CSS3 (vanilla, no frameworks)
-- Google Fonts (Playfair Display)
+- Vanilla JavaScript (small letter typeface toggle)
+- Google Fonts (Playfair Display + serif variants for letter page)
 
 No build process required — just open `index.html` in a browser.
 

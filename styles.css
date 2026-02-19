@@ -18,6 +18,7 @@
 
     --font-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
     --font-mono: 'Berkeley Mono', 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', monospace;
+    --font-letter: 'Playfair Display', Georgia, 'Times New Roman', serif;
 }
 
 *, *::before, *::after {
@@ -472,12 +473,37 @@ img {
     letter-spacing: 0.03em;
 }
 
+.font-toggle-wrap {
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.font-toggle-label {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--color-text-secondary);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.font-toggle-select {
+    border: 1px solid var(--color-border);
+    background: #ffffff;
+    color: var(--color-text);
+    font-family: var(--font-mono);
+    font-size: 12px;
+    padding: 8px 10px;
+}
+
 .letter-body {
     padding: 40px;
 }
 
 .letter-body p {
-    font-family: var(--font-serif);
+    font-family: var(--font-letter);
     font-size: 1.05rem;
     color: var(--color-text);
     line-height: 1.9;
@@ -489,7 +515,7 @@ img {
 }
 
 .letter-principles li {
-    font-family: var(--font-serif);
+    font-family: var(--font-letter);
     font-size: 1.05rem;
     color: var(--color-text);
     line-height: 1.85;
@@ -503,7 +529,7 @@ img {
 }
 
 .letter-section h2 {
-    font-family: var(--font-serif);
+    font-family: var(--font-letter);
     font-size: 1.25rem;
     font-weight: 400;
     color: var(--color-dark);
@@ -702,6 +728,15 @@ img {
     .letter-body p,
     .letter-principles li {
         font-size: 1rem;
+    }
+
+    .font-toggle-wrap {
+        gap: 8px;
+    }
+
+    .font-toggle-select {
+        width: 100%;
+        max-width: 280px;
     }
 }
 
