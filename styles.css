@@ -473,30 +473,6 @@ img {
     letter-spacing: 0.03em;
 }
 
-.font-toggle-wrap {
-    margin-top: 18px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    flex-wrap: wrap;
-}
-
-.font-toggle-label {
-    font-family: var(--font-mono);
-    font-size: 11px;
-    color: var(--color-text-secondary);
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-}
-
-.font-toggle-select {
-    border: 1px solid var(--color-border);
-    background: #ffffff;
-    color: var(--color-text);
-    font-family: var(--font-mono);
-    font-size: 12px;
-    padding: 8px 10px;
-}
 
 .letter-body {
     padding: 40px;
@@ -730,14 +706,6 @@ img {
         font-size: 1rem;
     }
 
-    .font-toggle-wrap {
-        gap: 8px;
-    }
-
-    .font-toggle-select {
-        width: 100%;
-        max-width: 280px;
-    }
 }
 
 /* Responsive - Small Mobile */
